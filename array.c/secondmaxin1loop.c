@@ -1,12 +1,10 @@
 #include<stdio.h>
 #include<limits.h>
-void main()
-{
+void main(){
     int arr[7]={7,6,5,4,3,2,1};
     int max = INT_MIN ;
     int smax = INT_MIN;
-    for(int i=0;i<=6;i++)
-    {
+    for(int i=0;i<=6;i++){
         if (max<arr[i]){
             smax=max; //isme phle wale max ki value dedi
             max = arr[i]; // isme ne =w max ki value dedi
